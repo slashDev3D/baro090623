@@ -1,0 +1,196 @@
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url(svg.css?ver=1.0.1);
+
+
+
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoH00.woff");
+src: url("../fonts/AppleSDGothicNeoH00#AppleSDGothicNeoH00") format("svg"), url("../fonts/AppleSDGothicNeoH00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoH00.woff") format("woff"), url("../fonts/AppleSDGothicNeoH00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoH00.woff2") format("woff2");
+font-weight: 900;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoEB00.woff");
+src: url("../fonts/AppleSDGothicNeoEB00#AppleSDGothicNeoEB00") format("svg"), url("../fonts/AppleSDGothicNeoEB00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoEB00.woff") format("woff"), url("../fonts/AppleSDGothicNeoEB00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoEB00.woff2") format("woff2");
+font-weight: 800;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoB00.woff");
+src: url("../fonts/AppleSDGothicNeoB00#AppleSDGothicNeoB00") format("svg"), url("../fonts/AppleSDGothicNeoB00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoB00.woff") format("woff"), url("../fonts/AppleSDGothicNeoB00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoB00.woff2") format("woff2");
+font-weight: 700;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoSB00.woff");
+src: url("../fonts/AppleSDGothicNeoSB00#AppleSDGothicNeoSB00") format("svg"), url("../fonts/AppleSDGothicNeoSB00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoSB00.woff") format("woff"), url("../fonts/AppleSDGothicNeoSB00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoSB00.woff2") format("woff2");
+font-weight: 600;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoM00.woff");
+src: url("../fonts/AppleSDGothicNeoM00#AppleSDGothicNeoM00") format("svg"), url("../fonts/AppleSDGothicNeoM00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoM00.woff") format("woff"), url("../fonts/AppleSDGothicNeoM00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoM00.woff2") format("woff2");
+font-weight: 500;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoR00.woff");
+src: url("../fonts/AppleSDGothicNeoR00#AppleSDGothicNeoR00") format("svg"), url("../fonts/AppleSDGothicNeoR00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoR00.woff") format("woff"), url("../fonts/AppleSDGothicNeoR00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoR00.woff2") format("woff2");
+font-weight: 400;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoL00.woff");
+src: url("../fonts/AppleSDGothicNeoL00#AppleSDGothicNeoL00") format("svg"), url("../fonts/AppleSDGothicNeoL00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoL00.woff") format("woff"), url("../fonts/AppleSDGothicNeoL00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoL00.woff2") format("woff2");
+font-weight: 300;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoUL00.woff");
+src: url("../fonts/AppleSDGothicNeoUL00#AppleSDGothicNeoUL00") format("svg"), url("../fonts/AppleSDGothicNeoUL00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoUL00.woff") format("woff"), url("../fonts/AppleSDGothicNeoUL00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoUL00.woff2") format("woff2");
+font-weight: 200;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+font-family: 'Apple SD Gothic';
+src: url("../fonts/AppleSDGothicNeoT00.woff");
+src: url("../fonts/AppleSDGothicNeoT00#AppleSDGothicNeoT00") format("svg"), url("../fonts/AppleSDGothicNeoT00.otf") format("opentype"), url("../fonts/AppleSDGothicNeoT00.woff") format("woff"), url("../fonts/AppleSDGothicNeoT00.eot?#iefix") format("embedded-opentype"), url("../fonts/AppleSDGothicNeoT00.woff2") format("woff2");
+font-weight: 100;
+font-style: normal;
+unicode-range: U+AC00-D7A3;
+}
+
+
+
+
+
+
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 100;
+src: url(../fonts/NotoSansKR-Thin.woff2) format('woff2'),
+     url(../fonts/NotoSansKR-Thin.woff) format('woff'),
+     url(../fonts/NotoSansKR-Thin.otf) format('opentype');
+     unicode-range: U+AC00-D7A3;
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 200;
+src: url(../fonts/NotoSans-DemiLight.woff2) format('woff2'),
+     url(../fonts/NotoSans-DemiLight.woff) format('woff'),
+     url(../fonts/NotoSans-DemiLight.otf) format('opentype');
+     unicode-range: U+AC00-D7A3;
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+src: url(../fonts/NotoSansKR-Light.woff2) format('woff2'),
+     url(../fonts/NotoSansKR-Light.woff) format('woff'),
+     url(../fonts/NotoSansKR-Light.otf) format('opentype');
+     unicode-range: U+AC00-D7A3;
+}
+@font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 400;
+     src: url(../fonts/NotoSansKR-Regular.woff2) format('woff2'),
+          url(../fonts/NotoSansKR-Regular.woff) format('woff'),
+          url(../fonts/NotoSansKR-Regular.otf) format('opentype');
+          unicode-range: U+AC00-D7A3;
+}
+@font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 500;
+     src: url(../fonts/NotoSansKR-Medium.woff2) format('woff2'),
+          url(../fonts/NotoSansKR-Medium.woff) format('woff'),
+          url(../fonts/NotoSansKR-Medium.otf) format('opentype');
+          unicode-range: U+AC00-D7A3;
+}
+@font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 600;
+     src: url(../fonts/NotoSansKR-Bold.woff2) format('woff2'),
+          url(../fonts/NotoSansKR-Bold.woff) format('woff'),
+          url(../fonts/NotoSansKR-Bold.otf) format('opentype');
+          unicode-range: U+AC00-D7A3;
+}
+@font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 900;
+     src: url(../fonts/NotoSansKR-Black.woff2) format('woff2'),
+          url(../fonts/NotoSansKR-Black.woff) format('woff'),
+          url(../fonts/NotoSansKR-Black.otf) format('opentype');
+          unicode-range: U+AC00-D7A3;
+}
+
+
+
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/SpoqaHanSansNeo-Light.woff2) format('woff2'),
+            url(../fonts/SpoqaHanSansNeo-Light.woff) format('woff'),
+            url(../fonts/SpoqaHanSansNeo-Light.otf) format('opentype');
+            unicode-range: U+0030-0039;
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/SpoqaHanSansNeo-Regular.woff2) format('woff2'),
+            url(../fonts/SpoqaHanSansNeo-Regular..woff) format('woff'),
+            url(../fonts/SpoqaHanSansNeo-Regular..otf) format('opentype');
+            unicode-range: U+0030-0039;
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/SpoqaHanSansNeo-Medium.woff2) format('woff2'),
+            url(../fonts/SpoqaHanSansNeo-Medium..woff) format('woff'),
+            url(../fonts/SpoqaHanSansNeo-Medium..otf) format('opentype');
+            unicode-range: U+0030-0039;
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/SpoqaHanSansNeo-Bold.woff2) format('woff2'),
+            url(../fonts/SpoqaHanSansNeo-Bold.woff) format('woff'),
+            url(../fonts/SpoqaHanSansNeo-Bold.otf) format('opentype');
+            unicode-range: U+0030-0039;
+}

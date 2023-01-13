@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+
+#sub_container {background:#f2f2f2;}
+#subPage_Container {overflow:hidden; /* display:flex; gap:20px; */}
+#bo_v {width:calc(100% - 325px) !important; float:left;}
+#bo_gall {width:305px !important; float:right;}
+
+.video_wrap {position:Relative; border-radius:6px; overflow:hidden; }
+.video-container {position:Relative; width:100%; height:0; padding-top:46%; overflow:hidden;}
+.video-container .in {position:absolute; width:100%; height:100%; top:0; left:0; }
+.video-container iframe {width:100%; height:100%;}
+.video-real {width:100%; border-radius:6px;}
+
+
+.vdo_title_wrap {padding:24px 10px 28px; position:relative; border-bottom:1px solid #dbdbdb;}
+.vdo_title_wrap .t {font-weight:bold; font-size:18px;}
+.vdo_title_wrap .c {display:flex; font-size:14px; color:#8b8b8b; padding-top:1em; align-items:center; gap:10px;}
+.vdo_title_wrap .c .dot {width:3px; height:3px; border-radius:100%; background:#8b8b8b;}
+.vdo_title_wrap .icon_share {position:absolute; bottom:28px; right:10px; color:#222; font-size:14px;font-weight: 500;display: flex;align-items: center;gap: 5px; cursor: pointer;}
+.vdo_title_wrap .icon_share .ic .cls-1 {fill:#222 !important;}
+.vdo_title_wrap .icon_share .ic {height:18px}
+.vdo_title_wrap .icon_share_con {position:absolute; right:10px;background: #FFF;border: 1px solid #dbdbdb; border-radius:8px; padding: 18px;z-index:-1; opacity:0; bottom: -60px;}
+.vdo_title_wrap .icon_share_con.on {opacity:1; z-index:9; }
+#bo_v_file {padding-top:40px;}
+.vdo_file_wrap {padding-top:40px;}
+
+.vdo_file_tit {font-size:16px; color:#222; font-weight:bold;}
+.vdo_file_con {background:#ededed; border:1px solid #dbdbdb; border-radius:12px; padding:60px 10px; margin-top:10px; font-size:14px; font-weight:bold; color:#222; }
+.vdo_file_wrap li.no-data { display: flex; align-items: center; flex-direction: column; gap:26px;} 
+
+
+
+
+.side_nextVideo_Wrap {width:305px; float:right; }
+
+.side_nextVideo_Wrap .title_wrap {font-size:18px; font-weight:bold; display:flex; align-items:center; gap:10px; padding-bottom:10px; border-bottom:1px solid #dbdbdb;}
+
+.side_nextVideo_Wrap .order_box {padding:24px 0 20px; display:flex; align-items:center; gap:5px;}
+.side_nextVideo_Wrap .order_box .order_btn {cursor:pointer; padding:12px 20px; font-size:14px; font-weight:500; display:inline-block; border-radius:50px; border:1px solid #dbdbdb; background:#f7f7f7; font-size:14px; color:#8b8b8b; font-weight:bold; }
+.side_nextVideo_Wrap .order_box .order_btn.on {border-color:#222222; background-color:#222222; color:#FFF;}
+
+.nextVideo_list {display:flex;  flex-direction:column; overflow:hidden; overflow-y:scroll;}
+.nextVideo_list::-webkit-scrollbar { width:3px; }
+.nextVideo_list::-webkit-scrollbar-thumb { background-color: #8b8b8b; }
+.nextVideo_list::-webkit-scrollbar-track { background-color:#f2f2f2 ; }
+
+.nextVideo_list.list_desc {display:none;}
+.nextVideo_list .vdo_box{padding:4px; border-radius:6px;}
+.nextVideo_list .vdo_box.on {background: #f2f2f2; /*border: 1px solid #dbdbdb;*/ }
+.nextVideo_list .vdo_box.on a{color:#ff3300;}
+.nextVideo_list .vdo_box a{display:flex; gap:10px; align-items:center;}
+.nextVideo_list .vdo_box .img {flex:0 0 168px; height:98px; position:relative; border-radius:6px; box-sizing:border-box; background-color:#ddd; overflow:hidden;}
+.nextVideo_list .vdo_box .img .vimeo-img {width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover;}
+.nextVideo_list .vdo_box .txt {flex:0 0 120px;}
+.nextVideo_list .vdo_box .txt .t {display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; text-overflow: ellipsis; text-decoration: none; font-size:14px; font-weight:500;}
+.nextVideo_list .vdo_box .txt .c {font-size:12px; color:#8b8b8b; margin-top:25px;}
+
+
+@media all and (max-width:980px) {
+    #subPage_Container {overflow:hidden; /* display:flex; gap:20px; */}
+    #bo_v {width:100% !important; float:unset;}
+    .side_nextVideo_Wrap {width:100%; float:unset; margin-top:60px; }
+    .nextVideo_list {height:auto !important; overflow-y:unset}
+}

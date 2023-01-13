@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* 달력 상단 라인 두께 */
+.fc-view-harness  {border-top: 2px solid #000;}
+
+/* 토/일 글자색상 및 배경색상 */
+.fc-day-sun a, .fc-day-sun .fc-daygrid-day-number { color:red }
+.fc-day-sat a, .fc-day-sat .fc-daygrid-day-number { color:blue }
+.fc-day-sat { background: #F0F0FF; }
+.fc-day-sun { background: #FFF7F7; }
+
+/* 달력 헤더 (월 ~ 토) */
+.fc-col-header-cell { height:30px; vertical-align: revert !important; background:#efefef; }
+.fc .fc-col-header-cell-cushion { padding:0px 4px !important; }
+
+/* 글쓰기 텍스트 및 배경 색상 선택 */
+.clr-list {list-style:none;}
+.clr-list > .clr-title { height:26px; line-height:26px; margin-right:10px; }
+.clr-list:after {display:block;visibility:hidden;clear:both;content:''}
+.clr-list > li {float:left}
+.clr-list > li .btn-color {display:block; margin: 0 1px; width:26px; height:26px; border-radius: 3px; border:1px solid #ccc; }
+.clr-list > li .user-color { outline:none; border:1px solid #ccc; width:70px !important; text-align:center; }
+.color-sample { display:block; width:100%; height:30px; line-height:30px; text-align:center; background:#3788D8; color:#ffffff; border-radius:5px; }
+
+/* 달력 메인화면 상단 툴바 */
+.fc-toolbar-chunk:nth-child(1) { width:50%; text-align:left; }
+.fc-toolbar-chunk:nth-child(2) { width:50%; text-align:center; display:flex; justify-content:flex-end; align-items: center; gap:10px;}
+/* .fc-toolbar-chunk:nth-child(3) { width:30%; text-align:right; } */
+.fc-toolbar-chunk > h2 { display: inline-block; padding-top:3px !important; }
+.fc .fc-button { border:0px !important; } /* button style */
+.fc-prev-button { display:inline-block; }
+.fc-next-button { display:inline-block; margin-left:1.2em !important; }
+.fc .fc-button-primary.fc-today-button,
+.fc .fc-button-primary.fc-today-button:hover,
+.fc .fc-button-primary:disabled.fc-today-button { background:#FFF; padding:0; color:#222; opacity:1; font-family: inherit; font-weight:bold; }
+.fc .fc-button.fc-prev-button,
+.fc .fc-button.fc-prev-button:hover,
+.fc .fc-button.fc-next-button:hover,
+.fc .fc-button.fc-prev-button .fc-icon:hover,
+.fc .fc-button.fc-next-button .fc-icon:hover,
+.fc .fc-button.fc-next-button {padding:0; background:#FFF; opacity:1; color:#222; margin:0 !important; border:0;}
+.fc .fc-button.fc-next-button .fc-icon,
+.fc .fc-button.fc-prev-button .fc-icon {width:auto; height:auto; line-height:normal;}
+/* 카테고리 */
+.category { display:inline-block; background:#2C3E50; color:#fff; height:30px; line-height:30px; padding:0px 8px !important; text-align:center; margin-right:3px; border-radius:3px; cursor:pointer; }
+.category-active { background:#22A7F2 !important; }
+
+/* 이벤트 바 */
+.fc-event-main-frame { height:24px; line-height:24px; font-size:11px; padding:0px 5px; }
+.fc-daygrid-event { font-size:11px !important; }
+
+/* 날짜 글자 크기 */
+.fc-daygrid-day-number { font-size:1.1em; }
+
+/* 글쓰기 버튼 */
+.rumi-write { position:absolute; top:6px; left:7px; font-size:15px; color:#ccc; cursor:pointer; }
+.rumi-write:hover { background:#dd6666; color:#fff; border-radius:50%; padding:5px; top:1px; left:2px}
+
+/* 날짜/음력/공휴일 높이 */
+.fc-daygrid-day-top { height:35px; }
+
+/* 음력 / 공휴일 */
+.rumi-lunarday { position: absolute; top: 20px; right: 5px; font-size: 10px; color:#888; display:none; } /*음력 안보이게 작업*/
+.rumi-lunarholiday { position: absolute; top: 5px; left: 25px; font-size: 11px; color:#FF2F2F; }
+.week-rumi-lunarset { display: block; width:100%; }
+.week-rumi-lunarday { display:inline-block; font-size: 11px; color:#888; }
+.week-rumi-lunarholiday { display:inline-block;  font-size: 11px; color:#FF2F2F; margin-left:8px; }
+
+/* fullcalendar 설정 */
+.wz_tbl_1,.wz_tbl_1 th,.wz_tbl_1 td{border:0;}
+.wz_tbl_1{width:100%;text-align:center;margin: 7px 0 0px;}
+.wz_tbl_1 table {clear:both;width:100%;border-collapse:collapse;border-spacing:0;background-color:#fff}
+.wz_tbl_1 tbody, .wz_tbl_1 tr, .wz_tbl_1 td {vertical-align:middle}
+.wz_tbl_1 caption{display:none}
+.wz_tbl_1 th { height:37px; padding:3px 0px; border:1px solid #dcdcdc;color:#666;text-align:center;font-weight:bold;background-color: #fbfbfb;}
+.wz_tbl_1 td { height:37px; padding:3px 5px; border:1px solid #e5e5e5; color:#4c4c4c; text-align:left;}
+.wz_tbl_1 th span.last:after {border:none;}
+.wz_tbl_1 td .numberic {text-align:right;padding-right:4px;}
+.wz_tbl_1 ul li { display:inline-block; margin-right:10px; }
+
+/* 일정 상세보기 (view.skin.php) */
+#bo_v_info .scdate-txt { position:relative; display:block; width:100%;  height:30px; margin:10px 0px 0px 0px; }
+#bo_v_info .scdate-txt .date-title { position:absolute; display:inline-block; width:80px; top:0; left:0; background:#555; color:#fff; text-align:center; height:30px; line-height:30px; border-radius:3px 0px 0px 3px; }
+#bo_v_info .scdate-txt .date-txt { position:absolute; display:inline-block; width:100%; height:30px; line-height:30px; text-align:left; padding-left:90px; background:#888; color:#fff; border-radius:3px 3px 3px 3px; }

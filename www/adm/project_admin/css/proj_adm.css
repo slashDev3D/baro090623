@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+
+.right {text-align:right;}
+
+.inno_cate_ul {display:flex; gap:9px; width:100%;}
+.inno_cate_ul li {display:inline-block;}
+.inno_cate_ul li a {display:Flex; padding:12.5px 28px; border-radius:50px; font-weight:500; font-size:15px; line-height:1em; background:#f2f2f2; color:#8b8b8b;}
+.inno_cate_ul li a.on {background:#222; color:#FFF;}
+
+@media all and (max-width:768px) {
+    .inno_cate_ul li a { padding:12.5px 20px; font-size:14px; }
+}
+
+.inno_ov01 {display: flex;gap: 8px;align-items: center}
+.inno_ov01 > span {/*padding:11px; */ border:0; color:#222; font-weight:500;}
+.inno_ov01 .ov_txt {/*background: #222; color:#FFF; border-radius:6px 0 0 6px;*/    font-size: 14px;font-weight: bold; color:#8b8b8b;   }
+.inno_ov01 .ov_num {/*background: #ccc; border-radius: 0px 6px 6px 0;*/  background: #fe6600; border-radius: 100%;font-weight: bold;color: #FFF;width: 26px;height: 26px;line-height: 26px;padding: 0;display: inline-block;text-align: center;}
+
+.btn_inno_excel_down {color:#FFF; background:#8b8b8b; border-radius:6px; font-size:13px; font-weight:600; line-height:1em; padding:11px 19px; border:0;}
+.btn_inno_excel_down:hover {background-color:#222; color:#FFF; transition:all 0.4s;}
+
+.btn_inno_link {color:#FFF !important; background:#fe6600; border-radius:6px; font-size:13px; font-weight:600; line-height:1em; padding:11px 19px; border:0;}
+.btn_inno_link:hover {background-color:#000; color:#FFF; transition:all 0.4s;}
+
+.btn_assi_down {color:#FFF !important; background:#8b8b8b; border-radius:6px; font-size:12px; font-weight:500; line-height:1em; padding:11px; border:0; display:inline-block;  color:#FFF; margin-bottom:5px;}
+.btn_assi_down:hover {background-color: #222; transition: all 0.5s;}
+.assi_date {font-size:12px;}
+
+.inno_tp {display:flex; align-items: center; margin-top:10px;}
+.inno_tp > div {flex: 0 0 50%;}
+
+
+.inno_bt {margin:20px 0 60px;}
+
+.inno_bt .tbl_st_01 th {font-weight:600;}
+.inno_bt .tbl_st_01 th,
+.inno_bt .tbl_st_01 td {padding:16px 10px; font-size:14px; line-height:1.4;}
+.inno_bt .tbl_st_01 td.pd0 {padding:0 !important}
+
+
+.inno_bt .tbl_w100.scroll {width:100%; overflow-x:scroll; padding:0 0 20px; }
+.inno_bt .frm_input {width:100%;}
+
+.proTit {font-weight:600; }
+.proBtn {display:inline-block; padding:10px 12px; line-height:1em; font-size:14px; border-radius:6px; margin:0 3px; background:#f2f2f2;}
+.proDown {background:#222; color:#FFF !important;} 
+.proEdit {background:#8b8b8b; color:#FFF !important;}
+.proDele {color:#8b8b8b !important}
+
+
+
+.proj_list {border-top:2px solid #222;}
+.proj_list > li {padding:20px 0px; display:flex; align-items:center; border-bottom:1px solid #dbdbdb;}
+.proj_list li .t {width:155px; box-sizing:border-box; padding:0 12px; font-size:16px; font-weight:bold; }
+.proj_list li .ipt {width:calc(100% - 155px); }
+.proj_list li .ipt:hover {outline:none; border:}
+.proj_list li .ipt .iptSt01 {border:1px solid #dbdbdb; font-size:14px; padding:0 18px; height:44px; line-height:44px; width:100%;}
+.proj_list li .ipt .iptSt01::placeholder {font-size:14px; color:#8b8b8b; font-family:'Spoqa Han Sans', 'Apple SD Gothic','Roboto',  dotum, sans-serif; }
+.proj_list li .ipt .cc {font-size:14px; line-height:1em; margin-top:12px; display:block;}
+
+.btn_confirm_wrap {display:flex; gap:10px; max-width:550px; margin:40px auto 0;}
+.btn_confirm_wrap a,
+.btn_confirm_wrap button {flex:0 0 50%; font-size:16px; font-weight:bold; border-radius: 50px;line-height:1em !important; padding: 22px 0; border:1px solid #222; color:#222; text-align: center;}
+.btn_confirm_wrap button {background:#222; color:#FFf}
+
+
+/**/
+.proj_fileBox {position:relative; display:flex; }
+.proj_fileBox #proj_fileUp {width:1px; height:1px; display:none;}
+.proj_fileBox label { font-size:14px; color:#222; background:#ccc; border-radius:3px; padding:13px 18px; cursor:pointer;}
+.proj_fileBox label:hover {background:#222; color:#FFF; transition:all 0.5s;}
+.proj_fileBox .proj_fileText {width:300px; padding:0 20px; border:0; font-size:14px; color:#8b8b8b;}
+.proj_fileBox .proj_fileText:active,
+.proj_fileBox .proj_fileText:focus,
+.proj_fileBox .proj_fileText:hover {border:0; outline:none;}
+
+
+
+/**/
+.inno_bt .tbl_st_01 thead {background:#222; color:#FFF;}
+.inno_bt .tbl_st_01 thead th {border:1px solid rgba(255,255,255,0.3); padding:12px 10px; }

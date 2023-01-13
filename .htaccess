@@ -1,0 +1,8 @@
+PHP_FLAG register_globals ON
+PHP_VALUE mysql.default_charset UTF8
+php_value max_input_time 240
+PHP_VALUE max_input_vars 3000
+PHP_VALUE max_execution_time 300
+PHP_VALUE memory_limit 512M
+PHP_VALUE upload_max_filesize 100M
+PHP_VALUE post_max_size 100M
